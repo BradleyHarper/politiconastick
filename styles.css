@@ -1,3 +1,18 @@
+@font-face {
+    font-family: title;
+    src: url(./assets/fonts/DeutscheZierschrift.ttf);
+}
+
 * {
     text-align: center;
+    color: #03DAC6;
+}
+
+html {
+    background-color: #121212;
+}
+
+.title {
+    font-family: title;
+    font-size: 8vw;
 }
