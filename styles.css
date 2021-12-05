@@ -1,6 +1,11 @@
 @font-face {
-    font-family: title;
-    src: url(./assets/fonts/din1451alt\ G.ttf);
+    font-family: 'deathmarkers';
+    src: url('./assets/fonts/DeathMarkers-d95rZ.otf');
+}
+
+@font-face {
+    font-family: 'Georgiai';
+    src: url('./assets/fonts/georgiai.ttf');
 }
 
 * {
@@ -9,10 +14,67 @@
 }
 
 html {
+    height: -webkit-fill-available;
     background-color: #121212;
 }
 
-.title {
-    font-family: title;
-    font-size: 8vw;
+a {
+    color: #03DAC6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+h5 {
+    font-size: 3vw;
+    font-family: 'Georgiai';
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+header > h1 {
+    font-family: 'deathmarkers', 'sans-serif';
+}
+
+header > img {
+    height: 21vw;
+}
+
+.break {
+    height: 1px;
+    background-color: white;
+    width: 33vw;
+    margin: 32px auto;
+}
+
+.dancing-protogen {
+    height: 7vw;
+}
+
+.twitter-link > a > img, .etsy-link > a > img, .mail-link > a > img {
+    height: 5vw;
+}
+
+.twitter-link > a > h5, .etsy-link > a > h5, .mail-link > a > h5 {
+    font-size: 1.5vw;
+    margin: 0px;
+    color: gray;
 }
