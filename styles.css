@@ -59,7 +59,8 @@ header > img {
 }
 
 img {
-    height: 60vw;
+    height: 40vw;
+    max-height: 500px;
 }
 
 .break {
